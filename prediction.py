@@ -6,11 +6,11 @@ from googleapiclient.discovery import build
 import google.generativeai as genai
 
 # Configure the Generative AI library with an API key
-GOOGLE_API_KEY = "AIzaSyAxTL8jZcTB1yXW1Jetzm4tsJXL3tQPPp8"
+GOOGLE_API_KEY = "Replace with your api"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # YouTube Data API Key
-YOUTUBE_API_KEY = "AIzaSyAxTL8jZcTB1yXW1Jetzm4tsJXL3tQPPp8"
+YOUTUBE_API_KEY = "Replace with your api"
 
 # Load the prediction model
 try:
